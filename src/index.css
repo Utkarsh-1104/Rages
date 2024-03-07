@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .outlined {
+        -webkit-text-stroke: 0.5px #ffffff;
+        color: transparent;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Montserrat&family=Poppins:wght@400;500;600&display=swap')
