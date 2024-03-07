@@ -5,7 +5,7 @@ import { fadeIn } from '../variants';
 
 const Services = () => {
   return (
-    <div className='bg-black pt-10'>
+    <div className='bg-black pt-10' id='services'>
         <h1 className='font-[Poppins] text-center text-4xl text-white font-bold '>Services We Offer</h1>
         <p className="text-white text-xl w-fit mt-4 ms-auto pe-10 underline font-[Poppins] hover:cursor-pointer hover:text-[#FF3434] ">View all Services</p>
         <motion.div 

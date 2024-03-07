@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover pb-32">
         <div className="text-white font-extrabold">
           <h1 className="outlined text-[18rem] tracking-widest -mt-24 mb-6 ms-20">
