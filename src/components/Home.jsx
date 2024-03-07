@@ -24,11 +24,11 @@ const Home = () => {
           </div>
         </div>
         <motion.div
-        variants={fadeIn('right', 0.5)}
-        initial="hidden"
-        whileInView={'show'}
-        viewport={{once: false, amount: 0.9}}
-        className="z-10 absolute top-28 left-52 w-[1200px] "
+          variants={fadeIn('right', 0.5)}
+          initial="hidden"
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+          className="z-10 absolute top-28 left-52 w-[1200px] "
         >
           <img
             src={drone}
