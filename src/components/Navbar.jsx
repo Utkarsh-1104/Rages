@@ -4,45 +4,45 @@ import {Link} from 'react-scroll'
 
 const Navbar = () => {
   return (
-    <div className='pt-4 flex justify-center items-center gap-10 px-12 z-10 -mb-24 sticky top-0'>
+    <div className='pt-4 flex justify-center items-center gap-10 px-12 z-10 -mb-24 sticky top-0 text-[1.3rem] font-[Poppins] text-white'>
         <img className='me-auto w-60' src={Logo} alt="" srcset="" />
         <Link 
           to='home'
+          activeClass='active'
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer ">Home</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Home</Link>
         <Link 
-          to='home'
-          activeClass='text-[#FF3434]'
+          to=''
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer ">Store</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Store</Link>
         <Link 
-          to='home'
+          to=''
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer">Blogs</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Blogs</Link>
         <Link 
-          to='home'
+          to=''
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer">Academics</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Academics</Link>
         <Link 
           to='services'
-          activeClass='text-red-500'
+          activeClass='active'
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer">Services</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Services</Link>
         <Link 
-          to='home'
+          to=''
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer">About Us</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">About Us</Link>
         <Link 
-          to='home'
+          to=''
           smooth={true}
           spy={true}
-          className="text-[1.3rem] font-[Poppins] text-white hover:text-[#FF3434] cursor-pointer">Contact</Link>
+          className="hover:text-[#FF3434] cursor-pointer ">Contact</Link>
     </div>
   )
 }
