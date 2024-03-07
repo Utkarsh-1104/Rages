@@ -25,26 +25,17 @@ const Navbar = () => {
           spy={true}
           className="hover:text-[#FF3434] cursor-pointer ">Blogs</Link>
         <Link 
-          to=''
-          smooth={true}
-          spy={true}
-          className="hover:text-[#FF3434] cursor-pointer ">Academics</Link>
-        <Link 
           to='services'
           activeClass='active'
           smooth={true}
           spy={true}
           className="hover:text-[#FF3434] cursor-pointer ">Services</Link>
         <Link 
-          to=''
+          to='about'
+          activeClass='active'
           smooth={true}
           spy={true}
           className="hover:text-[#FF3434] cursor-pointer ">About Us</Link>
-        <Link 
-          to=''
-          smooth={true}
-          spy={true}
-          className="hover:text-[#FF3434] cursor-pointer ">Contact</Link>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Blog from './components/Blog';
 import Counter from './components/Counter';
 import Home from './components/Home';
@@ -15,6 +16,7 @@ function App() {
       <Counter />
       <Products />
       <Blog />
+      <About />
     </div>
   );
 }
