@@ -1,4 +1,5 @@
 import './App.css';
+import Blog from './components/Blog';
 import Counter from './components/Counter';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Counter />
       <Products />
+      <Blog />
     </div>
   );
 }

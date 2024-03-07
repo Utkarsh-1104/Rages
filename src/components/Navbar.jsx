@@ -19,7 +19,8 @@ const Navbar = () => {
           spy={true}
           className="hover:text-[#FF3434] cursor-pointer ">Store</Link>
         <Link 
-          to=''
+          to='blog'
+          activeClass='active'
           smooth={true}
           spy={true}
           className="hover:text-[#FF3434] cursor-pointer ">Blogs</Link>
